@@ -1,0 +1,28 @@
+@import "./normilize.css";
+.header {
+    width: 100%;
+    background-color:#BC43F0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    gap: 40px;
+    margin-right: 100px; 
+}
+.nav-item {
+    font-size: 20px;
+}
